@@ -1,11 +1,5 @@
-#xxx   a note
-s = 1;x =2 ; y =3;
-while x <=y:
-    print("True");
+#!/usr/bin/env python3
 
-    x+=1;
-else:
-    print("False");
 
 def max(x,y):
     if x>y:
@@ -13,7 +7,8 @@ def max(x,y):
     else:
         return y
 
-print(max(1,2));
+print(max(1,2))
+print("this is chinese 怎样在电脑上下载")
 
 
 
