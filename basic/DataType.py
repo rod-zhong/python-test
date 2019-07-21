@@ -2,6 +2,10 @@
 
 """
   Lean how to use dictionary object. add/update/delete/loop/copy/etc..
+  tuple / list / set 三者的主要区别和主要创建模式为
+  my_tuple = (1,2,3) #不可变
+  my_list = [1,2,3]  #可变
+  my_set = {1,2,3}   #可变
 """
 def testDict():
     """
