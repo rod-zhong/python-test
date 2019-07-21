@@ -22,8 +22,11 @@ def readFile():
     with open(filename,"r") as file_object:
         for x in file_object.readlines():
             print("read data is :",x)
+
 __init__()
-# readFile()
-# writeOneLine()
-# writeMultipleLines()
-# readFile()
+
+print("start write sth into file for test")
+writeOneLine()
+writeMultipleLines()
+print("read file again to see what been changed")
+readFile()
